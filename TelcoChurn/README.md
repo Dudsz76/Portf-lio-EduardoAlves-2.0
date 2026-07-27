@@ -48,7 +48,7 @@ Pipeline completo de Machine Learning para prever o risco de cancelamento (churn
 Pré-requisito: [Docker Desktop](https://www.docker.com/products/docker-desktop/) instalado e rodando.
 
 ```bash
-git clone <url-do-seu-repositorio>
+git clone <https://github.com/Dudsz76/Portf-lio-EduardoAlves-2.0/TelcoChurn>
 cd telco-churn
 docker-compose up --build
 ```
@@ -133,11 +133,11 @@ Uso de **SHAP** para interpretar as previsões — tanto no agregado (quais vari
 <!-- Preencha com os números reais do seu modelo -->
 | Métrica | Valor |
 |---|---|
-| AUC-ROC | 0.XX |
-| AUC-PR | 0.XX |
-| Threshold ótimo | 0.XX |
-| Precision (churn) | 0.XX |
-| Recall (churn) | 0.XX |
+| AUC-ROC | 0.8395 |
+| AUC-PR | 0.647 |
+| Threshold ótimo | 0.30 |
+| Precision (churn) | 0.94 |
+| Recall (churn) | 0.60 |
 
 ---
 
@@ -195,5 +195,5 @@ Exemplo de resposta do `/predict`:
 
 ## Autor
 
-Desenvolvido por [Seu Nome] como parte de portfólio em Data Science.
-[LinkedIn](#) · [GitHub](#)
+Desenvolvido por Eduardo Alves de Oliveira como parte de portfólio em Data Science.
+[LinkedIn](https://www.linkedin.com/in/eduardo-alves-dados/) · [GitHub](https://github.com/Dudsz76/Portf-lio-EduardoAlves-2.0)
