@@ -25,7 +25,7 @@ Desenvolvi um **pipeline completo de Machine Learning** que:
 ### Resultado Esperado
 Capacitar o time de vendas com dados acionáveis, permitindo **ações de retenção proativas** – abordando clientes em risco antes que decidam cancelar, não depois.
 
-**[🔗 Ver projeto completo →](./churn-prediction)**
+**[🔗 Ver projeto completo →](./TelcoChurn)**
 
 ---
 
