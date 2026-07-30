@@ -1,0 +1,87 @@
+{
+  "tarefas": [
+    {
+      "nome": "☕ Café da manhã",
+      "horario": "09:00",
+      "duracao_minutos": 20,
+      "cor": "azul",
+      "subtarefas": [
+        "Preparar café",
+        "Comer algo",
+        "Guardar louça"
+      ],
+      "nivel_barulho": "🌿 Silencioso",
+      "descricao": "",
+      "concluida": false
+    },
+    {
+      "nome": "🚶 Transição - Escritório",
+      "horario": "10:45",
+      "duracao_minutos": 15,
+      "cor": "amarelo",
+      "subtarefas": [
+        "Guardar notebook",
+        "Separar documentos",
+        "Caminhar até sala"
+      ],
+      "nivel_barulho": "🌿 Silencioso",
+      "descricao": "",
+      "concluida": false
+    },
+    {
+      "nome": "🧠 Reunião equipe",
+      "horario": "11:00",
+      "duracao_minutos": 45,
+      "cor": "vermelho",
+      "subtarefas": [
+        "Entrar na sala virtual",
+        "Ativar microfone",
+        "Participar",
+        "Desligar microfone"
+      ],
+      "nivel_barulho": "📢 Moderado",
+      "descricao": "",
+      "concluida": false
+    },
+    {
+      "nome": "🍽️ Almoço",
+      "horario": "12:30",
+      "duracao_minutos": 45,
+      "cor": "verde",
+      "subtarefas": [
+        "Escolher restaurante",
+        "Comer",
+        "Descansar 5min"
+      ],
+      "nivel_barulho": "🌿 Silencioso",
+      "descricao": "",
+      "concluida": false
+    },
+    {
+      "nome": "📊 Relatório semanal",
+      "horario": "14:00",
+      "duracao_minutos": 90,
+      "cor": "azul",
+      "subtarefas": [
+        "Abrir planilha",
+        "Preencher dados",
+        "Revisar",
+        "Enviar por e-mail"
+      ],
+      "nivel_barulho": "🌿 Silencioso",
+      "descricao": "",
+      "concluida": false
+    },
+    {
+      "nome": "🎨 Hiperfoco livre",
+      "horario": "16:00",
+      "duracao_minutos": 120,
+      "cor": "roxo",
+      "subtarefas": [],
+      "nivel_barulho": "🌿 Silencioso",
+      "descricao": "",
+      "concluida": false
+    }
+  ],
+  "moedas": 0
+}
