@@ -9,3 +9,5 @@ pydantic
 streamlit
 requests
 plotly
+pytest
+httpx
