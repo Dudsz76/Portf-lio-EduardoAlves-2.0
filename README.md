@@ -60,7 +60,7 @@ Pessoas neurodivergentes frequentemente enfrentam desafios com **organização, 
 ### Tecnologia com Propósito
 Este protótipo foi desenvolvido com **vibe coding**, unindo agilidade no desenvolvimento com um olhar atento às necessidades reais dos usuários.
 
-**[🔗 Ver projeto completo →](./Agenda para Pessoas Neurodivergentes)**
+**[🔗 Ver projeto completo →](./AgendaNeuroDivergentes)**
 
 ---
 
