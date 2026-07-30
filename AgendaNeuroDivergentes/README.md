@@ -1,152 +1,7 @@
-🧠 Flow Agenda - App de Organização para Neurodivergências
-
-Bem-vindo(a) ao meu repositório de desenvolvimento de software inclusivo! 🚀
-
-Este espaço é dedicado a compartilhar projetos de tecnologia assistiva e design neuroinclusivo que desenvolvo. Aqui você encontrará um aplicativo desktop que transforma a gestão de tarefas diárias em uma experiência acolhedora, respeitosa e adaptada para pessoas autistas e com TDAH. 📱💜 📱 Sobre o Projeto: Flow Agenda
-
-O Flow Agenda é um aplicativo desktop desenvolvido em Python com PyQt6, criado especificamente para atender às necessidades de pessoas neurodivergentes. Diferente das agendas tradicionais (que podem ser entediantes, abstratas e facilmente ignoradas), o Flow Agenda foi pensado para respeitar o funcionamento do cérebro neurodivergente. 🎯 Objetivo
-
-Oferecer uma ferramenta de organização que:
-
-Respeite a previsibilidade necessária para pessoas autistas
-
-Ajude com a cegueira temporal e paralisia de início do TDAH
-
-Elimine a culpa associada a lembretes agressivos
-
-Proporcione controle sensorial através de perfis de energia
-
-✨ Funcionalidades Principais 📅 Linha do Tempo Visual
-
-Interface horizontal (como stories do Instagram), não uma lista vertical entediante
-
-Cards coloridos com significados fixos:
-
-    🔵 Azul = Tarefa sozinho (recuperação)
-
-    🟢 Verde = Tarefa prazerosa (interesse especial)
-
-    🟡 Amarelo = Transição (locomoção, arrumar mochila)
-
-    🔴 Vermelho = Obrigação social (consome energia)
-
-    🟣 Roxo = Surpresa (conteúdo flexível)
-
-🚂 Modo "Trem" (Transição Segura)
-
-Divide tarefas em subtarefas detalhadas
-
-Mostra o que esperar antes de começar (spoiler da atividade)
-
-Informa: duração, nível de barulho, próximo passo
-
-Progresso visual com marcação de etapas concluídas
-
-▶️ Botão "Iniciar Agora" com Timer de 5 Minutos
-
-Solução para a paralisia de início do TDAH
-
-Timer visual com contagem regressiva
-
-Recompensa imediata ao concluir
-
-Frase motivacional: "Você começou! Que tal +10 min?"
-
-🔔 Lembretes "Sem Culpa"
-
-Abordagem educada e permissiva
-
-Opções: "Reagendar", "15 min" (soneca) ou "Ignorar"
-
-Nunca faz o usuário se sentir cobrado ou culpado
-
-🎛️ Perfis de Energia
-
-Baixa Energia (Overload): Interface suave, sem animações
-
-Normal: Equilíbrio padrão
-
-Hiperfoco: Preto e branco, sem distrações, bloqueio de notificações
-
-✏️ CRUD Completo de Tarefas
-
-Criar, editar, excluir e limpar tarefas concluídas
-
-Interface acessível com campos claros
-
-Suporte a subtarefas e descrições detalhadas
-
-📊 Interface do Aplicativo text
-
-┌─────────────────────────────────────────────────────────────────┐ │ 🎛️ Perfil: [Normal ▼] ➕ Nova Tarefa 🧹 Limpar 💰 Moedas: 0 │ ├─────────────────────────────────────────────────────────────────┤ │ │ │ 📅 Linha do Tempo (deslize para ver os próximos blocos) │ │ │ │ ┌──────────┐ ┌──────────┐ ┌──────────┐ ┌──────────┐ │ │ │ 🕐 09:00 │ │ 🕐 10:30 │ │ 🕐 12:00 │ │ 🕐 14:00 │ │ │ │ Café │ │ E-mails │ │ Almoço │ │ Reunião │ │ │ │ ⏱️20min │ │ ⏱️60min │ │ ⏱️45min │ │ ⏱️90min │ │ │ │ 🌿Silencioso│ │ 🌿Silencioso│ │ 🌿Silencioso│ │ 📢Moderado│ │ │ └──────────┘ └──────────┘ └──────────┘ └──────────┘ │ │ │ │ ┌─────────────────────────────────────────────────────────┐ │ │ │ ▶ INICIAR AGORA (timer de 5min) │ │ │ └─────────────────────────────────────────────────────────┘ │ │ │ └─────────────────────────────────────────────────────────────────┘
-
-🛠️ Tecnologias Utilizadas Tecnologia Finalidade Python 3.10+ Linguagem principal PyQt6 Interface gráfica desktop JSON Persistência local de dados QTimer Gerenciamento de temporizadores e lembretes QPropertyAnimation Animações suaves (quando perfil permite) 🚀 Como Executar o Projeto Pré-requisitos bash
-Instalar Python 3.10 ou superior
-Instalar a biblioteca PyQt6
-
-pip install PyQt6
-
-Clonar e Executar bash
-Clone o repositório
-
-git clone https://github.com/seu-usuario/flow-agenda.git
-Entre no diretório
-
-cd flow-agenda
-Execute o aplicativo
-
-python flow_agenda.py
-
-Arquivos do Projeto text
-
-flow-agenda/ ├── flow_agenda.py # Código principal do aplicativo ├── flow_agenda.json # Arquivo de dados (criado automaticamente) └── README.md # Este arquivo
-
-🎨 Design Neuroinclusivo - Por que funciona? Necessidade Neurodivergente Solução no Flow Agenda Dificuldade com transição "Trem" de subtarefas + aviso progressivo Ansiedade por imprevistos Spoiler da atividade (barulho, duração, próximo passo) Paralisia de início Botão "Iniciar agora" com timer de 5 min Cegueira temporal Linha do tempo horizontal (não lista vertical) Sobrecarga sensorial Perfis de energia (dieta de estímulos) Pensamento literal Perguntas diretas (sim/não/reagendar), sem metáforas 📈 Principais Insights do Desenvolvimento
-
-Durante a criação deste aplicativo, aprendi que:
-
-Ferramentas de produtividade tradicionais frequentemente falham para pessoas neurodivergentes porque assumem um funcionamento cognitivo "padrão"
-
-A culpa é o maior inimigo da consistência - lembretes agressivos geram evitação, não ação
-
-Previsibilidade reduz ansiedade - saber o que esperar de uma tarefa (barulho, duração, próximos passos) é tão importante quanto a tarefa em si
-
-Interface visual horizontal funciona melhor para TDAH do que listas verticais tradicionais
-
-Controle sensorial (perfis de energia) permite que o usuário regule seu próprio ambiente
-
-🔮 Próximos Passos (Roadmap)
-
-Sistema completo de moedas e recompensas
-
-Sincronização com Google Calendar
-
-Notificações do sistema (tray icon)
-
-Modo "Body Double" (estudo/ trabalho junto virtual)
-
-Versão mobile (Kivy ou React Native)
-
-Exportação de relatórios de conclusão
-
-Temas personalizáveis por usuário
-
-📬 Contato
-
-Este projeto é parte do meu portfólio profissional de desenvolvimento de software inclusivo. Se você tem interesse em conhecer mais sobre meu trabalho, discutir oportunidades ou contribuir com o projeto, sinta-se à vontade para entrar em contato: Contato Link LinkedIn Eduardo Alves E-mail oliveiradudu76@gmail.com 📌 Notas Importantes
-
-Os dados das tarefas são salvos localmente no arquivo flow_agenda.json
-
-O aplicativo é totalmente offline - seus dados não saem do seu computador
-
-Desenvolvido com foco em acessibilidade e respeito às necessidades neurodivergentes
-
-Feedbacks e sugestões são sempre bem-vindos! 😊
-Este espaço é dedicado a compartilhar projetos de tecnologia assistiva e design neuroinclusivo que desenvolvo. Aqui você encontrará um aplicativo desktop que transforma a gestão de tarefas diárias em uma experiência acolhedora, respeitosa e adaptada para pessoas autistas e com TDAH. 📱💜
-📱 Sobre o Projeto: Flow Agenda
+# 🧠 Flow Agenda - App de Organização para Neurodivergências
 
 O Flow Agenda é um aplicativo desktop desenvolvido em Python com PyQt6, criado especificamente para atender às necessidades de pessoas neurodivergentes. Diferente das agendas tradicionais (que podem ser entediantes, abstratas e facilmente ignoradas), o Flow Agenda foi pensado para respeitar o funcionamento do cérebro neurodivergente.
-🎯 Objetivo
+## 🎯 Objetivo
 
 Oferecer uma ferramenta de organização que:
 
@@ -158,8 +13,8 @@ Oferecer uma ferramenta de organização que:
 
     Proporcione controle sensorial através de perfis de energia
 
-✨ Funcionalidades Principais
-📅 Linha do Tempo Visual
+# ✨ Funcionalidades Principais
+## 📅 Linha do Tempo Visual
 
     Interface horizontal (como stories do Instagram), não uma lista vertical entediante
 
@@ -175,7 +30,7 @@ Oferecer uma ferramenta de organização que:
 
         🟣 Roxo = Surpresa (conteúdo flexível)
 
-🚂 Modo "Trem" (Transição Segura)
+## 🚂 Modo "Trem" (Transição Segura)
 
     Divide tarefas em subtarefas detalhadas
 
@@ -185,7 +40,7 @@ Oferecer uma ferramenta de organização que:
 
     Progresso visual com marcação de etapas concluídas
 
-▶️ Botão "Iniciar Agora" com Timer de 5 Minutos
+## ▶️ Botão "Iniciar Agora" com Timer de 5 Minutos
 
     Solução para a paralisia de início do TDAH
 
@@ -195,7 +50,7 @@ Oferecer uma ferramenta de organização que:
 
     Frase motivacional: "Você começou! Que tal +10 min?"
 
-🔔 Lembretes "Sem Culpa"
+## 🔔 Lembretes "Sem Culpa"
 
     Abordagem educada e permissiva
 
@@ -203,7 +58,7 @@ Oferecer uma ferramenta de organização que:
 
     Nunca faz o usuário se sentir cobrado ou culpado
 
-🎛️ Perfis de Energia
+## 🎛️ Perfis de Energia
 
     Baixa Energia (Overload): Interface suave, sem animações
 
@@ -211,7 +66,7 @@ Oferecer uma ferramenta de organização que:
 
     Hiperfoco: Preto e branco, sem distrações, bloqueio de notificações
 
-✏️ CRUD Completo de Tarefas
+## ✏️ CRUD Completo de Tarefas
 
     Criar, editar, excluir e limpar tarefas concluídas
 
@@ -219,45 +74,25 @@ Oferecer uma ferramenta de organização que:
 
     Suporte a subtarefas e descrições detalhadas
 
-📊 Interface do Aplicativo
-text
+---
 
-┌─────────────────────────────────────────────────────────────────┐
-│ 🎛️ Perfil: [Normal ▼]    ➕ Nova Tarefa  🧹 Limpar  💰 Moedas: 0 │
-├─────────────────────────────────────────────────────────────────┤
-│                                                                 │
-│  📅 Linha do Tempo (deslize para ver os próximos blocos)        │
-│                                                                 │
-│  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐       │
-│  │ 🕐 09:00 │  │ 🕐 10:30 │  │ 🕐 12:00 │  │ 🕐 14:00 │       │
-│  │ Café     │  │ E-mails  │  │ Almoço   │  │ Reunião  │       │
-│  │ ⏱️20min  │  │ ⏱️60min  │  │ ⏱️45min  │  │ ⏱️90min  │       │
-│  │ 🌿Silencioso│ │ 🌿Silencioso│ │ 🌿Silencioso│ │ 📢Moderado│       │
-│  └──────────┘  └──────────┘  └──────────┘  └──────────┘       │
-│                                                                 │
-│  ┌─────────────────────────────────────────────────────────┐   │
-│  │              ▶ INICIAR AGORA (timer de 5min)             │   │
-│  └─────────────────────────────────────────────────────────┘   │
-│                                                                 │
-└─────────────────────────────────────────────────────────────────┘
-
-🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 Tecnologia	Finalidade
 Python 3.10+	Linguagem principal
 PyQt6	Interface gráfica desktop
 JSON	Persistência local de dados
 QTimer	Gerenciamento de temporizadores e lembretes
 QPropertyAnimation	Animações suaves (quando perfil permite)
-🚀 Como Executar o Projeto
-Pré-requisitos
-bash
 
-# Instalar Python 3.10 ou superior
-# Instalar a biblioteca PyQt6
-pip install PyQt6
+---
+## Pré-requisitos
+    bash
+# 🚀 Como Executar o Projeto
+  
 
-Clonar e Executar
-bash
+    ###  Instalar Python 3.10 ou superior
+    ###  Instalar a biblioteca PyQt6
+    ###    pip install PyQt6
 
 # Clone o repositório
 git clone https://github.com/seu-usuario/flow-agenda.git
@@ -268,22 +103,22 @@ cd flow-agenda
 # Execute o aplicativo
 python flow_agenda.py
 
-Arquivos do Projeto
-text
+---
 
-flow-agenda/
-├── flow_agenda.py          # Código principal do aplicativo
-├── flow_agenda.json        # Arquivo de dados (criado automaticamente)
-└── README.md               # Este arquivo
+# Arquivos do Projeto
+    flow-agenda/
+    ├── flow_agenda.py          # Código principal do aplicativo
+    ├── flow_agenda.json        # Arquivo de dados (criado automaticamente)
+    └── README.md               # Este arquivo
 
-🎨 Design Neuroinclusivo - Por que funciona?
-Necessidade Neurodivergente	Solução no Flow Agenda
-Dificuldade com transição	"Trem" de subtarefas + aviso progressivo
-Ansiedade por imprevistos	Spoiler da atividade (barulho, duração, próximo passo)
-Paralisia de início	Botão "Iniciar agora" com timer de 5 min
-Cegueira temporal	Linha do tempo horizontal (não lista vertical)
-Sobrecarga sensorial	Perfis de energia (dieta de estímulos)
-Pensamento literal	Perguntas diretas (sim/não/reagendar), sem metáforas
+## 🎨 Design Neuroinclusivo - Por que funciona?
+    Necessidade Neurodivergente	Solução no Flow Agenda
+    Dificuldade com transição	"Trem" de subtarefas + aviso progressivo
+    Ansiedade por imprevistos	Spoiler da atividade (barulho, duração, próximo passo)
+    Paralisia de início	Botão "Iniciar agora" com timer de 5 min
+    Cegueira temporal	Linha do tempo horizontal (não lista vertical)
+    Sobrecarga sensorial	Perfis de energia (dieta de estímulos)
+    Pensamento literal	Perguntas diretas (sim/não/reagendar), sem metáforas
 📈 Principais Insights do Desenvolvimento
 
 Durante a criação deste aplicativo, aprendi que:
@@ -352,7 +187,6 @@ Feito com 💜, café ☕ e respeito às neurodiversidades.
 
 "O mundo não foi feito para cérebros diferentes. Mas a tecnologia pode ser."
 
-CI Status Security Scan codecov Python Version Code Style Security: bandit Tests Coverage
 <!-- Badges de Status -->
 [![CI Status](https://github.com/seu-usuario/flow-agenda/actions/workflows/ci.yml/badge.svg)](https://github.com/seu-usuario/flow-agenda/actions/workflows/ci.yml)
 [![Security Scan](https://github.com/seu-usuario/flow-agenda/actions/workflows/security-scan.yml/badge.svg)](https://github.com/seu-usuario/flow-agenda/actions/workflows/security-scan.yml)
