@@ -1,0 +1,29 @@
+# Manifest file for Flow Agenda
+# Define quais arquivos serão incluídos no pacote distribuído
+
+# Documentação
+include README.md
+include LICENSE
+include requirements.txt
+
+# Dados do aplicativo
+recursive-include assets *.png *.ico *.svg
+recursive-include locales *.qm *.ts
+
+# Configurações
+include pyproject.toml
+include setup.py
+
+# Excluir arquivos de desenvolvimento
+exclude .gitignore
+exclude .env
+exclude .vscode/
+exclude .idea/
+exclude __pycache__/
+exclude *.pyc
+exclude .pytest_cache/
+exclude .coverage
+exclude htmlcov/
+exclude dist/
+exclude build/
+exclude *.egg-info/

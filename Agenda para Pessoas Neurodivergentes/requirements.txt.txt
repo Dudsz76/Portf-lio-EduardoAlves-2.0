@@ -1,0 +1,25 @@
+# Flow Agenda - Dependências do Projeto
+# Aplicativo de organização para pessoas autistas e com TDAH
+# Python 3.10+ required
+
+# Interface Gráfica
+PyQt6==6.6.1
+PyQt6-Qt6==6.6.1
+PyQt6-sip==13.6.0
+
+# Desenvolvimento e Debug (opcional - apenas para desenvolvimento)
+pytest==8.0.0
+black==24.1.0
+pylint==3.0.3
+
+# Testes automatizados (opcional)
+pytest-qt==4.2.0
+
+# Empacotamento (para gerar executável - opcional)
+pyinstaller==6.3.0
+
+# Logging e monitoramento (opcional)
+loguru==0.7.2
+
+# Análise de dados (para futuras features - opcional)
+pandas==2.2.0

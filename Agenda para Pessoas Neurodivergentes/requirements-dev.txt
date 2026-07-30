@@ -1,0 +1,34 @@
+# Testes
+pytest==8.0.0
+pytest-qt==4.2.0
+pytest-cov==4.1.0
+pytest-xdist==3.5.0
+pytest-timeout==2.2.0
+pytest-mock==3.12.0
+
+# Linting e Formatação
+black==24.1.0
+pylint==3.0.3
+flake8==7.0.0
+isort==5.13.0
+mypy==1.8.0
+
+# Segurança
+bandit==1.7.7
+safety==2.3.5
+
+# Qualidade
+radon==6.0.1
+vulture==2.10
+pydocstyle==6.3.0
+
+# Testes de Performance
+pytest-benchmark==4.0.0
+locust==2.24.0
+
+# Mocking e Utilitários
+freezegun==1.4.0
+pytest-timeout==2.2.0
+
+requests-mock==1.11.0
+pytest-responsemock==1.1.1
